@@ -1,0 +1,361 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nmc.NMCWorkforce.MainActivitySave" xmlns:app="http://schemas.android.com/apk/res/com.nmc.NMCWorkforce">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible" >
+        
+        
+        <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="Create a TT : 1/4 Steps"
+		 android:typeface="sans"
+		 android:textSize="16sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center" 
+		 android:editable="true"
+		 app:font="light.ttf"/>
+		 
+          
+        <EditText
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Summary of TT"
+		 android:textSize="18sp"
+		 android:id="@+id/txtSummary"
+		 android:maxLength="60"
+		 android:singleLine="true"
+		 />
+        
+       
+        
+        <EditText
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Description TT"
+		 android:textSize="18sp"
+		 android:id="@+id/txtDescription"
+		 android:maxLength="60"
+		 android:singleLine="true"/>
+        
+        <Spinner
+        android:id="@+id/spGroup"
+        android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Choose the Group"
+		 android:textSize="18sp" />
+        
+         
+        <EditText
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Ops"
+		 android:textSize="18sp"
+		 android:id="@+id/txtIndividual"
+		 android:maxLength="25"
+		 android:singleLine="true"
+		 />
+        
+         </LinearLayout>
+        
+        
+         
+        <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="invisible" >
+       
+        <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="A few more details : 2/4 Steps"
+		 android:typeface="sans"
+		 android:textSize="16sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center" 
+		 android:editable="true"
+		 app:font="light.ttf"/>
+        
+		 <Spinner
+         android:id="@+id/spProcess"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Choose the Group"
+		 android:textSize="18sp" />
+		
+		 <Spinner
+         android:id="@+id/spGroupType"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Choose the Type"
+		 android:textSize="18sp" />
+		  
+		 
+		 <Spinner
+         android:id="@+id/spFault"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Choose the Group"
+		 android:textSize="18sp" /> 
+		 
+		</LinearLayout> 
+		 
+		 
+		 
+		  <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="invisible" >
+		 
+		 <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="Almost at the end : 3/4 Steps"
+		 android:typeface="sans"
+		 android:textSize="16sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center" 
+		 android:editable="true"
+		 app:font="light.ttf"/>
+		      
+		 <Spinner
+         android:id="@+id/spClassification"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Classification"
+		 android:textSize="18sp" /> 
+		 
+		 <Spinner
+         android:id="@+id/spZone"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Zone"
+		 android:textSize="18sp" /> 
+		 
+		  <Spinner
+         android:id="@+id/spRegion"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Region"
+		 android:textSize="18sp" /> 
+		 
+		   <Spinner
+         android:id="@+id/spDistrict"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="District"
+		 android:textSize="18sp" /> 
+		 </LinearLayout>
+		 
+		 <RelativeLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="invisible" >
+		   
+		     <customFont.CustomTextView
+		 android:id="@+id/titre4"
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="Finally!! last step : 4/4 Steps"
+		 android:typeface="sans"
+		 android:textSize="16sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center" 
+		 android:editable="true"
+		 app:font="light.ttf"/>
+		   
+		 <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="Date"
+		 android:typeface="sans"
+		 android:textSize="18sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center"
+		 android:id="@+id/txtDate"
+		 android:layout_below="@+id/titre4"
+		 app:font="segoe.ttf" />
+		 
+		  <Button
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:background="@drawable/bouton"
+		 android:textColor="#ffffff"
+		 android:textStyle="bold"
+		 android:textSize="20sp"
+		 android:padding="10dp"
+		 android:layout_marginTop="10dp"
+		 android:id="@+id/btDate"
+		 android:text="Date"
+		 android:layout_below="@+id/titre4"
+		 android:layout_toRightOf="@+id/txtDate"
+		 
+		  />
+		
+		   
+		  <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:typeface="sans"
+		 android:textSize="24sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center"
+		 android:id="@+id/txtNull"
+		 app:font="segoe.ttf" />
+		  
+		   
+		 <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="Time"
+		 android:typeface="sans"
+		 android:textSize="18sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center"
+		 android:id="@+id/txtTime"
+		 app:font="segoe.ttf" />
+		 
+		  <Button
+		 android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:background="@drawable/bouton"
+		 android:textColor="#ffffff"
+		 android:textStyle="bold"
+		 android:textSize="20sp"
+		 android:padding="10dp"
+		 android:layout_marginTop="10dp"
+		 android:id="@+id/btTime"
+		 android:text="Time" />
+		  
+		   <Spinner
+         android:id="@+id/spHandover"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Handover Mode"
+		 android:textSize="20sp" />
+		   
+		   <Button  
+		 android:id="@+id/btSave"
+         android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		 android:textColor="#ffffff"
+		 android:text="Save"/>
+		 
+		 
+		</RelativeLayout>
+		 
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linearLayout1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="21dp"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

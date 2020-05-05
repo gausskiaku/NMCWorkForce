@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	 	android:layout_width="match_parent"
+	 	android:layout_height="match_parent"
+	 	android:orientation="vertical"
+	    tools:context="com.nmc.NMCWorkforce.MainActivityList" >
+<LinearLayout 
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:orientation="vertical"
+ android:layout_alignParentTop="true"
+ android:padding="2dp">
+ 
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:divider="#808080"
+		 android:layout_marginTop="5dp"
+		 android:dividerHeight="1dp"
+		 android:padding="5dp"
+		 android:visibility="invisible"
+        >
+        
+
+    </ListView>
+    
+</LinearLayout>
+ <LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_centerVertical="true"
+		 android:padding="10dp">
+<Button
+        android:id="@+id/bt_Assign"
+        android:layout_width="220dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/bouton"
+	    android:padding="10dp"
+	    android:textColor="#FFFFFF"
+	    android:textSize="14sp"
+	    android:textStyle="italic|bold"
+	    android:layout_gravity="center"
+	    android:text="Open tickets assigned" />
+
+<Button
+        android:id="@+id/bt_Closed"
+        android:layout_width="220dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/bouton"
+	    android:padding="10dp"
+	    android:textColor="#FFFFFF"
+	    android:textSize="14sp"
+	    android:textStyle="italic|bold"
+	    android:layout_gravity="center"
+	   	android:text="Open tickets closed or resolved" />
+
+<Button
+        android:id="@+id/bt_Group"
+        android:layout_width="220dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/bouton"
+	    android:padding="10dp"
+	    android:textColor="#FFFFFF"
+	    android:textSize="14sp"
+	    android:textStyle="italic|bold"
+	    android:layout_gravity="center"
+	   	android:text="Open tickets by Group" />
+
+<Button
+        android:id="@+id/bt_Create"
+        android:layout_width="220dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/bouton"
+	    android:padding="10dp"
+	    android:textColor="#FFFFFF"
+	    android:textSize="14sp"
+	    android:textStyle="italic|bold"
+	    android:layout_gravity="center"
+	   	android:text="Create TT" />
+</LinearLayout>
+
+
+ <TextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="195dp"
+		 android:text=""
+		 android:typeface="sans"
+		 android:textSize="30sp"
+		 android:textColor="#FF0000"
+		 android:gravity="center"
+		 android:id="@+id/aucunTicket"
+		 android:visibility="invisible" />
+</RelativeLayout>

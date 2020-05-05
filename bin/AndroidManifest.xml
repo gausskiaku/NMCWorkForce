@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nmc.NMCWorkforce"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/voda"
+        android:label="@string/app_name"
+        android:theme="@style/_NmcWorkforce" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivityList"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main_activity_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivityDetail"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main_activity_detail"
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity
+            android:name=".MainActivityUpdate"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main_activity_update"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivityReAssign"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main_activity_re_assign"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivityResolved"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main_activity_resolved"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivityUser"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ErrorUser"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_error_user"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivityTimeOut"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main_activity_time_out"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".AppBaseActivity" >
+        </activity>
+        <activity
+            android:name=".MainActivitySave"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main_activity_save"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivityGroup"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_main_activity_group"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DetailBis"
+            android:label="@string/title_activity_detail_bis" >
+            
+        </activity>
+    </application>
+
+</manifest>

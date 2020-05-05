@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			 xmlns:tools="http://schemas.android.com/tools"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 android:orientation="vertical"
+			 android:padding="10dp"
+    		 tools:context="com.nmc.NMCWorkforce.MainActivityReAssign" xmlns:app="http://schemas.android.com/apk/res/com.nmc.NMCWorkforce">
+    		  
+    <LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_centerVertical="true"
+		 android:padding="10dp"> 
+		 
+		 <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="Reassign TT"
+		 android:typeface="sans"
+		 android:textSize="35sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center"
+		 app:font="light.ttf" />
+		 
+		 
+		 <Spinner
+         android:id="@+id/sp"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Choose the ops"
+		 android:textSize="20sp" />
+		 
+		 
+		 <EditText
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Full Name Ops"
+		 android:textSize="20sp"
+		 android:editable="false"
+		 android:id="@+id/txtOps" />
+		 
+		 
+		 <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Choose the group ops"
+		 android:textSize="20sp" />
+			
+		 	
+		 
+		 <Button
+	         android:id="@+id/btReAssign"
+	         android:layout_width="164dp"
+	         android:layout_height="wrap_content"
+	         android:layout_marginTop="10dp"
+	         android:background="@drawable/bouton"
+	         android:padding="10dp"
+	         android:text="Save"
+	         android:textColor="#FFFFFF"
+	         android:textSize="20sp"
+	         android:textStyle="bold"
+	         android:layout_gravity="center" />
+		 
+		 
+	</LinearLayout>
+</RelativeLayout>

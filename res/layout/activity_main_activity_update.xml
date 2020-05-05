@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		     xmlns:tools="http://schemas.android.com/tools"
+		     android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 android:orientation="vertical"
+			 android:padding="10dp"
+    tools:context="com.nmc.NMCWorkforce.MainActivityUpdate" xmlns:app="http://schemas.android.com/apk/res/com.nmc.NMCWorkforce">
+    <LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_centerVertical="true"
+		 android:padding="10dp">
+        
+        
+        
+        <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="Update TT"
+		 android:textSize="35sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center"
+		 android:id="@+id/textPrincipalUpdate"
+		 app:font="light.ttf" />
+        
+        <EditText
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Your activity"
+		 android:textSize="20sp"
+		 android:id="@+id/txtActivityUpdate"
+		 android:inputType="textMultiLine"
+		 android:maxLines="5"
+		 android:maxLength="250"
+		 />
+        
+         <Button
+	         android:id="@+id/btSaveUpdate"
+	         android:layout_width="164dp"
+	         android:layout_height="wrap_content"
+	         android:layout_marginTop="10dp"
+	         android:background="@drawable/bouton"
+	         android:padding="10dp"
+	         android:text="Save"
+	         android:textColor="#FFFFFF"
+	         android:textSize="20sp"
+	         android:textStyle="bold"
+	         android:layout_gravity="center" />
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>

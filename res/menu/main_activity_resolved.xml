@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nmc.hello.MainActivityResolved" >
+
+  <item android:id="@+id/logout_Resolved" android:title="Logout">    
+   </item>
+   <item android:id="@+id/reset_Resolved" android:title="Reset">   
+   </item>
+
+</menu>

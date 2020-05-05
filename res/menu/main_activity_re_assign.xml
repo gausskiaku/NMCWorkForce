@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nmc.hello.MainActivityReAssign" >
+
+     <item android:id="@+id/logout_ReAssign" android:title="Logout">
+   </item>
+   <item android:id="@+id/reset_ReAssign" android:title="Reset">   
+   </item>
+</menu>

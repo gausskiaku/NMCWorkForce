@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NMC Workforce</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_activity_list">MainActivityList</string>
+    <string name="title_activity_main_activity_detail">MainActivityDetail</string>
+    <string name="title_activity_main_activity_update">MainActivityUpdate</string>
+
+    <string-array name="status">
+        <item> Assigned </item>
+        <item> WIP </item>
+        <item> Pending </item>
+        <item> Resolved </item>
+    </string-array>
+
+    <string name="title_activity_main_activity_re_assign">MainActivityReAssign</string>
+    <string name="title_activity_main_activity_resolved">MainActivityResolved</string>
+
+    <string-array name="root_cause">
+        <item>Choose the root cause</item>
+        <item> Cascade site </item>
+        <item> Database change </item>
+        <item> Equipment </item>
+        <item> Equipment maintenance </item>
+        <item> Generator </item>
+        <item> Planned JO </item>
+        <item> Power </item>
+        <item> Transmission </item>
+    </string-array>
+    <string-array name="handoverMode">
+        <item>Email</item>
+        <item>Fax</item>
+        <item>Phone Call</item>
+        <item>Remedy</item>
+        <item>SMS</item>
+    </string-array>
+    <string-array name="group_region">
+        <item>Choose the group</item>
+        <item>Alcatel Support</item>
+        <item>Bas Congo Region</item>
+        <item>Central Region</item>
+        <item>Change Management</item>
+        <item>Datacom</item>
+        <item>Eastern Region</item>
+        <item>Facilities</item>
+        <item>Gateway</item>
+        <item>Huawei Support</item>
+        <item>Isocool</item>
+        <item>Job Order Coordinator</item>
+        <item>Kinshasa Region</item>
+        <item>MCT</item>
+        <item>Network Controllers</item>
+        <item>Network Management Centre</item>
+        <item>NM Config</item>
+        <item>NMC Administrator</item>
+        <item>NMC Escalation</item>
+        <item>Northern Regiont</item>
+        <item>Project Management</item>
+        <item>Radio Planning</item>
+        <item>Sourthern Region</item>
+        <item>Switching engineering</item>
+        <item>Transmission Planning</item>
+        <item>Unicompex</item>
+        <item>Value Added Services</item>
+        <item>Vodacom Business</item>
+        <item>Warehouse</item>
+        <item>Western Region</item>
+        <item>ZTE Support</item>
+    </string-array>
+    <string-array name="process">
+        <item>Billing</item>
+        <item>Customer Services</item>
+        <item>EBU</item>
+        <item>EDGE</item>
+        <item>Fuel Management</item>
+        <item>Network Fault</item>
+        <item>Network Quality</item>
+        <item>NSS</item>
+        <item>Planned Work</item>
+        <item>Site Access</item>
+        <item>Systems Administration</item>
+        <item>Value Added Services (VAS)</item>
+        <item>Vodanet</item>
+        <item>Walkair</item>
+        <item>Wimax</item>
+    </string-array>
+
+    <string name="title_activity_main_activity_user">MainActivityUser</string>
+    <string name="title_activity_error_user">ErrorUser</string>
+    <string name="title_activity_main_activity_time_out">MainActivityTimeOut</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main_activity_save">MainActivitySave</string>
+    <string name="title_activity_main_activity_group">MainActivityGroup</string>
+    <string name="settings_text_select_theme">Select Theme:</string>
+    <string name="settings_text_credentials">Credentials</string>
+    <string name="settings_text_username_hint">username</string>
+    <string name="settings_text_password_hint">password</string>
+    <string name="settings_text_sync_automatically">Sync automatically</string>
+    <string name="settings_text_location">Location</string>
+    <string name="settings_text_state_on">On</string>
+    <string name="settings_text_state_off">Off</string>
+    <string name="settings_text_clear_data">Clear Data</string>
+    <string name="title_activity_detail_bis">DetailBis</string>
+
+</resources>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nmc.NMCWorkforce.MainActivityGroup" 
+    xmlns:app="http://schemas.android.com/apk/res/com.nmc.NMCWorkforce">
+
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spGroupTicket"/>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Initial Date"
+            android:id="@+id/btInitDate"
+            android:background="@null"
+            android:textSize="12dp"
+            android:layout_below="@+id/spGroupTicket" />
+
+        <customFont.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to"
+            android:id="@+id/textView"
+            android:layout_toRightOf="@+id/btInitDate"
+            android:layout_below="@+id/spGroupTicket"
+            app:font="segoe.ttf"
+            android:textSize="12dp"
+            android:paddingTop="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End date"
+            android:id="@+id/btEndDate"
+            android:background="@null"
+            android:textSize="12dp"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_below="@+id/spGroupTicket"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:background="@drawable/bouton"
+            android:textColor="#FFFFFF"
+            android:id="@+id/btSearch" 
+            android:layout_toRightOf="@+id/btEndDate"
+            android:layout_below="@+id/spGroupTicket"/>
+        
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewGroupTT" 
+            android:layout_below="@+id/btInitDate"/>
+        </RelativeLayout>
+
+
+    
+        
+   
+
+</RelativeLayout>

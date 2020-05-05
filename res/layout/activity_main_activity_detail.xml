@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    xmlns:tools="http://schemas.android.com/tools"
+		     android:layout_width="match_parent"
+			 android:layout_height="match_parent"
+			 android:orientation="vertical"
+			 android:padding="10dp"
+    tools:context="com.nmc.NMCWorkforce.MainActivityDetail" 
+    xmlns:app="http://schemas.android.com/apk/res/com.nmc.NMCWorkforce">
+    
+    <LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_centerVertical="true"
+		 android:padding="10dp"> 
+		 <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="TT Information"
+		 android:typeface="sans"
+		 android:textSize="30sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center" 
+		 android:editable="true"
+		 android:id="@+id/titreDetail"
+		 app:font="light.ttf"/>
+		 
+		 <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:scrollbars="vertical"
+		 android:text="Ticket Detail"
+		 android:typeface="sans"
+		 android:textSize="18sp"
+		 android:textColor="#000000"
+		 android:gravity="center"
+		 android:id="@+id/textDetail"
+		 app:font="segoe.ttf" />
+		 
+		 </LinearLayout>
+
+   
+
+
+</RelativeLayout>

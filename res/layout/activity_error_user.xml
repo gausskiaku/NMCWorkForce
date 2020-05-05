@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp" xmlns:app="http://schemas.android.com/apk/res/com.nmc.NMCWorkforce">
+
+	 <LinearLayout
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentTop="true"
+	     android:layout_centerHorizontal="true"
+	     android:orientation="vertical"
+	     android:padding="10dp" >
+
+	     <customFont.CustomTextView
+	         android:id="@+id/titreErreur"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:gravity="center"
+	         android:text="NMC Workforce"
+	         android:textColor="#0F9DE8"
+	         android:textSize="35sp"
+	         android:typeface="sans"
+	         app:font="light.ttf" />
+
+	     <customFont.CustomTextView
+	         android:id="@+id/msgErreur"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:gravity="center"
+	         android:text="Sorry! Username or password incorrect or server not available. Try again"
+	         android:textColor="#FF0000"
+	         android:textSize="28sp"
+	         android:typeface="normal"
+	         app:font="segoe.ttf" />
+
+	     <Button
+	         android:id="@+id/btErreur"
+	         android:layout_width="164dp"
+	         android:layout_height="wrap_content"
+	         android:layout_marginTop="10dp"
+	         android:background="@drawable/bouton"
+	         android:padding="10dp"
+	         android:text="Back"
+	         android:textColor="#FFFFFF"
+	         android:textSize="20sp"
+	         android:textStyle="bold"
+	         android:layout_gravity="center" />
+	 </LinearLayout>
+
+</RelativeLayout>

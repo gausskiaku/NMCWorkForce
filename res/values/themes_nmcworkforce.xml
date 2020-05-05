@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="NmcWorkforce" parent="@style/_NmcWorkforce"/>
+
+  <style name="_NmcWorkforce" parent="android:Theme.Holo.Light.DarkActionBar">
+
+    <item name="android:editTextBackground">@drawable/nmcworkforce_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99ff0000</item>
+    <item name="android:textSelectHandleLeft">@drawable/nmcworkforce_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/nmcworkforce_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/nmcworkforce_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewNmcWorkforce</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/nmcworkforce_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/nmcworkforce_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonNmcWorkforce</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonNmcWorkforce</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerNmcWorkforce</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarNmcWorkforce</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarNmcWorkforce</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarNmcWorkforce</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigNmcWorkforce</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallNmcWorkforce</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleNmcWorkforce</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/nmcworkforce_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/nmcworkforce_activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/nmcworkforce_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

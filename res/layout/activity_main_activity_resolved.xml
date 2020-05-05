@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			xmlns:tools="http://schemas.android.com/tools"
+   				android:layout_width="match_parent"
+			 	android:layout_height="match_parent"
+			 	android:orientation="vertical"
+			 	android:padding="10dp"
+    			tools:context="com.nmc.NMCWorkforce.MainActivityResolved" xmlns:app="http://schemas.android.com/apk/res/com.nmc.NMCWorkforce">
+    			
+    <LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:orientation="vertical"
+		 android:layout_centerVertical="true"
+		 android:padding="10dp"> 
+		 
+		 
+        <customFont.CustomTextView
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:text="Resolve TT"
+		 android:typeface="sans"
+		 android:textSize="35sp"
+		 android:textColor="#0F9DE8"
+		 android:gravity="center"
+		 app:font="light.ttf" />
+        
+        
+        <Spinner
+        android:id="@+id/spRootCause"
+        android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="10dp"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:hint="Choose the Root Cause"
+		 android:textSize="20sp"/>
+        
+		 
+        <EditText
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:textSize="20sp"
+		 android:hint="Resolution Methods"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:inputType="text"
+		 android:layout_marginTop="10dp"
+		 android:maxLength="30"
+		 android:id="@+id/txtResolutionMethResolved" />
+        
+        
+        
+        <EditText
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:textSize="20sp"
+		 android:hint="Solution Remarks"
+		 android:textColor="#ff0000"
+		 android:textColorHint="#000000"
+		 android:padding="10dp"
+		 android:inputType="textMultiLine"
+		 android:layout_marginTop="10dp"
+		 android:maxLines="3"
+		 android:maxLength="40"
+		 android:id="@+id/txtSolutionsRemarkResolved" />
+        
+        <Button
+	         android:id="@+id/saveResolved"
+	         android:layout_width="164dp"
+	         android:layout_height="wrap_content"
+	         android:layout_marginTop="10dp"
+	         android:background="@drawable/bouton"
+	         android:padding="10dp"
+	         android:text="Save"
+	         android:textColor="#FFFFFF"
+	         android:textSize="20sp"
+	         android:textStyle="bold"
+	         android:layout_gravity="center" />
+        
+        
+		 
+	</LinearLayout>
+
+  
+    
+</RelativeLayout>

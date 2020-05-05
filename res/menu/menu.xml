@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nmc.hello.MainActivityDetail">
+    <item android:id="@+id/option" 
+        android:title="Option"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="always"
+        > 
+        <menu android:id="@+id/sousMenu">
+        	<item android:id="@+id/update"
+				  android:title="Update"
+            />
+        	<item android:id="@+id/reAssign"
+				  android:title="Re-Assign"
+            />
+        	<item android:id="@+id/resolve"
+				  android:title="Resolve"
+            />
+        	<item android:id="@+id/accept"
+				  android:title="Accept"
+            />
+        </menu>
+        
+    </item>
+    <item android:id="@+id/quitter" 
+        android:title="Quit" 
+        android:showAsAction="never"></item>
+     
+</menu>

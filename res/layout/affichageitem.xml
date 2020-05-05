@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:orientation="horizontal"
+ 			android:layout_width="match_parent"
+ 			android:layout_height="match_parent"
+ 			android:weightSum="5"
+ 			android:padding="5dp"
+			android:layout_marginTop="2dp" xmlns:app="http://schemas.android.com/apk/res/com.nmc.NMCWorkforce">
+    
+    <ImageView
+		android:id="@+id/image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:padding="10px"
+/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+        <TextView
+            android:id="@+id/idTicket"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textSize="22px"
+			android:textStyle="bold"
+			android:textColor="#FF0000"
+		/>
+        
+		<customFont.CustomTextView
+		     android:id="@+id/summaryTicket"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#000000"
+			app:font="segoe.ttf"
+			 
+		/>
+		<customFont.CustomTextView
+		    android:id="@+id/descriptionTicket"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textColor="#000000"
+			app:font="segoe.ttf"
+	/>
+    </LinearLayout>
+
+</LinearLayout>

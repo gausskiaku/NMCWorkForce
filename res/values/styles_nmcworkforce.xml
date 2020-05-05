@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewNmcWorkforce" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/nmcworkforce_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/nmcworkforce_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonNmcWorkforce" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/nmcworkforce_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonNmcWorkforce" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/nmcworkforce_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerNmcWorkforce" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/nmcworkforce_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/nmcworkforce_list_selector_holo_light</item>
+  </style>
+
+  <style name="TabNmcWorkforce">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/nmcworkforce_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextNmcWorkforce">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ProgressBarNmcWorkforce" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/nmcworkforce_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/nmcworkforce_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarNmcWorkforce" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/nmcworkforce_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/nmcworkforce_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/nmcworkforce_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarNmcWorkforce" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/nmcworkforce_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/nmcworkforce_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigNmcWorkforce" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/nmcworkforce_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/nmcworkforce_ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallNmcWorkforce" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/nmcworkforce_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/nmcworkforce_ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleNmcWorkforce" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/nmcworkforce_btn_toggle_holo_light</item>
+  </style>
+
+</resources>
